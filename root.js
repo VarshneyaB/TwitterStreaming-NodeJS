@@ -2,8 +2,8 @@ console.log("Programme has started.");
 
 
 var key = require('./keys');
-var stream = require('./lib/api_1');
-var fetch = require('./lib/api_2');
+var stream = require('.api_1');
+var fetch = require('.api_2');
 
 stream(key,{key : "hollywood",count : 5},"mongodb://localhost:27017","holly",function(){
     console.log("Stored everything on database.");
