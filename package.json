@@ -1,0 +1,15 @@
+{
+  "name": "tweet_streamer",
+  "version": "1.0.0",
+  "description": "This is to stream tweets",
+  "main": "root.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varshneyabhushan",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.3",
+    "twit": "^2.2.9"
+  }
+}
